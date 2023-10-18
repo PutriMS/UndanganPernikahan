@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div.container{
+            min-width: 300px;
+            max-width: 500px;
+            margin: 0px auto;
+
+        }
+        section.page{
+            width: 100%;
+            min-height: 100vh;
+            /*background-color: aqua;*/
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        p, h1 {
+            text-align: center;
+        }
+        section.page.one{
+            gap: 300pt;
+            background-image: url(wed3.jpeg);
+            background-size: 100%;
+            
+        }
+        section.page.one > div > h1{
+            font-size: 30pt;
+        }
+        section.page.two{
+            justify-content: space-evenly;
+            padding: 20px;
+            background-image: url(bingkai2.jpg);
+            background-size: 102%;
+        }
+        section.page.three{
+            justify-content: space-evenly;
+            padding: 20px;
+            background-image: url(bingkai2.jpg);
+            background-size: 102%;
+        }
+        div.card{
+            width: 250pt;
+            min-height: 300pt;
+            /*background-color: gray;*/
+            border-radius: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 10pt;
+            background-image: linear-gradient(black, white);
+        }
+        div.circle1{
+            width: 150pt;
+            height: 150pt;
+            border-radius: 75pt;
+            background-color: aliceblue;
+            background-image: url(batik.png);
+            margin-bottom: 50px;
+        }
+        div.circle2{
+            width: 150pt;
+            height: 150pt;
+            border-radius: 75pt;
+            background-color: aliceblue;
+            background-image: url(uni.jpg);
+            background-size: 150%;
+        }
+        div.line{
+            width: 150px;
+            height: 1px;
+            background-color: black;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="page one">
+            <div class="title">
+                <p>The Wedding of</p>
+                <h1>Didit & Adit</h1>
+                <p>Minggu, 17 September 2023</p>
+            </div>
+            <div class="guest-name">
+                <p>Kepada Yang Terhormat</p>
+                <p>Dodi, Ph.D.</p>
+            </div>
+        </section>
+        <section class="page two">
+            <h2>The Beloved</h2>
+            <h1>Didit & Adit</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt nemo laudantium et obcaecati. Minus, quae sit nesciunt officiis expedita dolor aliquid, mollitia, non quis necessitatibus ex nulla corporis adipisci beatae?</p>
+            <div class="card">
+                <div class="circle1">
+
+                </div>
+                <h1>Didit Chandra Harianto</h1>
+                <div class="line">
+
+                </div>
+                <p>Putri Pertama</p>
+                <p>Bapak Syamsudin</p>
+                <p>&</p>
+                <p>Ibu Sumlatic</p>
+                
+            </div>
+        </section>
+        <section class="page three">
+            <h2>The Beloved</h2>
+            <h1>Didit & Adit</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt nemo laudantium et obcaecati. Minus, quae sit nesciunt officiis expedita dolor aliquid, mollitia, non quis necessitatibus ex nulla corporis adipisci beatae?</p>
+            <div class="card">
+                <div class="circle2">
+
+                </div>
+                <h1>Adit Suryanto</h1>
+                <div class="line">
+
+                </div>
+                <p>Putra Pertama</p>
+                <p>Bapak Suryanto</p>
+                <p>&</p>
+                <p>Ibu Derica</p>
+        </section>
+    </div>
+</body>
+</html>
